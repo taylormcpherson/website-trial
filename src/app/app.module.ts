@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TrialNavComponent } from './trial-nav/trial-nav.component';
+import { WorkIntroComponent } from './work-intro/work-intro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TrialNavComponent
+    WorkIntroComponent,
   ],
   imports: [
     BrowserModule,

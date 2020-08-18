@@ -1,0 +1,50 @@
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.work-cards-container {
+  width: 36vw;
+  height: 24vw;
+  background-image: url("/../../assets/img/card-1.png");
+  background-position: center;
+  background-size: 36vw;
+  box-shadow: 0 8px 16px #AEAEAE;
+  margin: 3em 0em 1em 4em;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.card-title {
+  font-size: 2vw;
+  margin-bottom: .6em;
+  visibility: hidden;
+  font-weight: 600;
+}
+
+.card-description {
+  font-size: 1vw;
+  font-weight: 400;
+  visibility: hidden;
+}
+
+.work-cards-container:hover {
+  background:
+    center
+    rgba(110, 110, 110, .9);
+  background-size: 36vw;
+  background-blend-mode: multiply;
+
+}
+
+
+.work-cards-container:hover .card{
+  visibility: visible;
+  cursor: pointer;
+}
+

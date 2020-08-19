@@ -36,6 +36,7 @@ import { ResumeComponent } from './resume/resume.component';
       {path: 'about', component: AboutComponent},
       {path: 'resume', component: ResumeComponent},
       {path: '', redirectTo: '/work', pathMatch: 'full'},
+      {path: '**', redirectTo: '/work', pathMatch: 'full'},
     ]),
     BrowserAnimationsModule
   ],

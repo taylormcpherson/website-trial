@@ -4,7 +4,7 @@ export const CARDS: WorkCard[] = [
   { id: 1,
     title: 'MOBILE / WEB',
     description: 'UI / UX Designer',
-    imgUrl: 'url(/../assets/img/card-1.png)',
+    imgUrl: 'url(./assets/img/card-1.png)',
   },
   { id: 2,
     title: 'USER RESEARCH',

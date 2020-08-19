@@ -2,60 +2,19 @@
   <div class="blurbs-container">
     <p class="chat-title">CHAT WITH ME ABOUT</p>
     <div *ngFor="let blurb of blurbs" class="single-blurb">
-      <div *ngIf="blurb.id == 1">
-        <div class="title-container">
-          <img class="title-img" src="../../../assets/img/computer.png" alt="computer">
-          <div class="words-container">
-            <div class="blurb-title">{{blurb.title}}</div>
-            <div class="blurb-description">{{blurb.description}}</div>
-          </div>
+
+      <div class="title-container">
+        <img class="title-img" src="{{blurb.imgUrl}}" alt="{{blurb.imgAlt}}">
+        <div class="words-container">
+          <div class="blurb-title">{{blurb.title}}</div>
+          <div class="blurb-description">{{blurb.description}}</div>
         </div>
       </div>
+
+
     </div>
-    <div *ngFor="let blurb of blurbs" class="single-blurb">
-      <div *ngIf="blurb.id == 2">
-        <div class="title-container">
-          <img class="title-img" src="../../../assets/img/wtf.png" alt="exclmation, question mark">
-          <div class="words-container">
-            <div class="blurb-title">{{blurb.title}}</div>
-            <div class="blurb-description">{{blurb.description}}</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div *ngFor="let blurb of blurbs" class="single-blurb">
-      <div *ngIf="blurb.id == 3">
-        <div class="title-container">
-          <img class="title-img" src="../../../assets/img/recycle.png" alt="recycle">
-          <div class="words-container">
-            <div class="blurb-title">{{blurb.title}}</div>
-            <div class="blurb-description">{{blurb.description}}</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div *ngFor="let blurb of blurbs" class="single-blurb">
-      <div *ngIf="blurb.id == 4">
-        <div class="title-container">
-          <img class="title-img" src="../../../assets/img/beach.png" alt="beach scene">
-          <div class="words-container">
-            <div class="blurb-title">{{blurb.title}}</div>
-            <div class="blurb-description">{{blurb.description}}</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div *ngFor="let blurb of blurbs" class="single-blurb">
-      <div *ngIf="blurb.id == 5">
-        <div class="title-container">
-          <img class="title-img" src="../../../assets/img/dog.png" alt="pupper">
-          <div class="words-container">
-            <div class="blurb-title">{{blurb.title}}</div>
-            <div class="blurb-description">{{blurb.description}}</div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+
 
   </div>
 </div>

@@ -1,0 +1,41 @@
+.resume-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img {
+  display: flex;
+  align-self: center;
+}
+
+
+.download-container {
+  display: flex;
+  align-self: center;
+  width: 72%;
+
+
+}
+.download-box {
+  height: 2em;
+  width: 6em;
+  border: 1px solid #7F93FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  border-radius: 1em;
+}
+
+.download-button {
+  text-decoration: none;
+  color: #5B7FFE;
+  display: flex;
+}
+
+.download-box:hover, .download-box:hover .download-button {
+  background: #7F93FF;
+  color: white;
+  cursor: pointer;
+}

@@ -11,9 +11,16 @@ body {
   margin: 4em;
 }
 body, input[type="text"], button {
-  color: #828282;
+  color: #4F4F4F;
 }
 /* everywhere else */
+
 * {
-  font-family: Nunito, sans-serif;
+  /*font-family: Nunito, sans-serif;*/
+  font-family: 'Nunito', sans-serif;
 }/* You can add global styles to this file, and also import other style files */
+
+::selection {
+  background: #929292;
+  color: #FFFFFF;
+}

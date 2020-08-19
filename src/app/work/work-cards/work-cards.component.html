@@ -1,0 +1,31 @@
+<div class="full-container">
+  <div class="selection-title">SELECTED WORKS</div>
+  <div class="cards-container">
+    <div *ngFor="let card of cards">
+      <div *ngIf="card.id == 1" >
+        <div class="work-cards-container" [ngStyle]="{backgroundImage: 'url(/../../assets/img/card-1.png)'}">
+          <div class="card-title card">{{card.title}}</div>
+          <div class="card-description card">{{card.description}}</div>
+        </div>
+      </div>
+      <div *ngIf="card.id == 2" >
+        <div class="work-cards-container" [ngStyle]="{backgroundImage: 'url(/../../assets/img/card-2.png)'}">
+          <div class="card-title card">{{card.title}}</div>
+          <div class="card-description card">{{card.description}}</div>
+        </div>
+      </div>
+      <div *ngIf="card.id == 3" >
+        <div class="work-cards-container" [ngStyle]="{backgroundImage: 'url(/../../assets/img/card-3.png)'}">
+          <div class="card-title card">{{card.title}}</div>
+          <div class="card-description card">{{card.description}}</div>
+        </div>
+      </div>
+      <div *ngIf="card.id == 4" >
+        <div class="work-cards-container" [ngStyle]="{backgroundImage: 'url(/../../assets/img/card-4.png)'}">
+          <div class="card-title card">{{card.title}}</div>
+          <div class="card-description card">{{card.description}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

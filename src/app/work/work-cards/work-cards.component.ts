@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CARDS } from "../cards-directory"
+import { CARDS } from "../../cards-directory"
 
 @Component({
   selector: 'app-work-cards',

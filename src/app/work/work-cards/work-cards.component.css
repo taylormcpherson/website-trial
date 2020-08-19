@@ -1,22 +1,38 @@
+.full-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.selection-title {
+  font-size: 1vw;
+  font-weight: 600;
+  color: #929292;
+  margin-top: 6em;
+}
 .cards-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -2em;
 }
 .work-cards-container {
-  width: 36vw;
-  height: 24vw;
-  background-image: url("/../../assets/img/card-1.png");
+  width: 30vw;
+  height: 20vw;
+  background-image: url("/src/assets/img/card-1.png");
   background-position: center;
-  background-size: 36vw;
-  box-shadow: 0 8px 16px #AEAEAE;
-  margin: 3em 0em 1em 4em;
+  background-size: 30vw;
+  opacity: .8;
+  box-shadow: 0 6px 48px #AEAEAE;
+  margin: 3em 0em 1em 0em;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   color: #FFFFFF;
 }
 
@@ -24,11 +40,11 @@
   font-size: 2vw;
   margin-bottom: .6em;
   visibility: hidden;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .card-description {
-  font-size: 1vw;
+  font-size: 1.4vw;
   font-weight: 400;
   visibility: hidden;
 }
@@ -37,14 +53,13 @@
   background:
     center
     rgba(110, 110, 110, .9);
-  background-size: 36vw;
+  background-size: 30vw;
   background-blend-mode: multiply;
-
+  cursor: pointer;
 }
 
 
 .work-cards-container:hover .card{
   visibility: visible;
-  cursor: pointer;
 }
 

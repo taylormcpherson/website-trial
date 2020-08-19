@@ -1,0 +1,27 @@
+* {
+  font-weight: 300;
+  color: #828282;
+  cursor: default;
+}
+
+h2 {
+  font-size: 2vw;
+}
+
+.highlight {
+  color: #5B7FFE;
+  font-weight: 600;
+}
+
+.highlight:hover {
+  color: #7F93FF;
+  opacity: .6;
+  cursor:url("/../../assets/img/sparkles.png") 0 200, pointer;
+}
+
+.about-intro-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 1em;
+}

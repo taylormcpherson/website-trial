@@ -16,7 +16,6 @@ h2 {
 .highlight:hover {
   color: #7F93FF;
   opacity: .6;
-  cursor:url("/../../../assets/img/sparkles.png") 0 200, default;
 }
 
 .about-intro-container {

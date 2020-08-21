@@ -21,7 +21,7 @@ export const BLURBS: AppBlurb[] = [
     imgAlt: 'recycle',
   },
   { id: 2,
-    title: "Wicked Problems & User-Centered Design",
+    title: "Wicked Problems in Design",
     description: "How do we design a world that allows every child access to free, " +
       "high-quality education? What do communities look like that centers systems of care" +
       " rather than policing? These are some of many wicked problems I could get lost in." +

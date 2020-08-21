@@ -4,7 +4,7 @@
 }
 
 .selection-title {
-  font-size: 1vw;
+  font-size: .8em;
   font-weight: 600;
   color: #929292;
   margin-top: 6em;
@@ -37,14 +37,14 @@
 }
 
 .card-title {
-  font-size: 2vw;
+  font-size: 1.8em;
   margin-bottom: .6em;
   visibility: hidden;
   font-weight: 700;
 }
 
 .card-description {
-  font-size: 1.4vw;
+  font-size: 1.1em;
   font-weight: 400;
   visibility: hidden;
 }

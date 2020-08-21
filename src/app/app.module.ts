@@ -14,6 +14,7 @@ import { WorkComponentComponent } from './work/work-component.component';
 import { AboutComponent } from './about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ResumeComponent } from './resume/resume.component';
+import { DeviceDetectorModule } from "ngx-device-detector";
 
 @NgModule({
   declarations: [
@@ -31,14 +32,15 @@ import { ResumeComponent } from './resume/resume.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot([
+    /*RouterModule.forRoot([
       {path: 'work', component: WorkComponentComponent},
       {path: 'about', component: AboutComponent},
       {path: 'resume', component: ResumeComponent},
       {path: '', redirectTo: '/work', pathMatch: 'full'},
       {path: '**', redirectTo: '/work', pathMatch: 'full'},
-    ]),
-    BrowserAnimationsModule
+    ]),*/
+    BrowserAnimationsModule,
+    DeviceDetectorModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

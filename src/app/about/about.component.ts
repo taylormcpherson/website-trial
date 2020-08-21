@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {AppComponent} from "../app.component";
 
 @Component({
   selector: 'app-about',
@@ -6,8 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
+  isMobile: boolean
 
-  constructor() { }
+  constructor() {
+    if (window.innerWidth < 500) {
+      this.isMobile = true;
+    }
+  }
 
   ngOnInit(): void {
   }

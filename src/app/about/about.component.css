@@ -2,3 +2,8 @@
   margin-left: 12vw;
   margin-right: 8vw;
 }
+
+.about-container-mobile {
+  margin-left: 0;
+  margin-right: 0;
+}

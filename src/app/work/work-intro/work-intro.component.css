@@ -29,11 +29,6 @@ h2 {
   font-weight: 600;
 }
 
-.highlight:hover {
-  color: #7F93FF;
-  opacity: .6;
-}
-
 img {
   border-radius: 20px;
   box-shadow: 0 2px 20px #CDCDCD;

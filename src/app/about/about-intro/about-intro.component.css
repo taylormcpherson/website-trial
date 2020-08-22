@@ -13,11 +13,6 @@ h2 {
   font-weight: 600;
 }
 
-.highlight:hover {
-  color: #7F93FF;
-  opacity: .6;
-}
-
 .about-intro-container {
   display: flex;
   justify-content: center;

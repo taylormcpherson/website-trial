@@ -4,7 +4,8 @@
     <p class="chat-title">CHAT WITH ME ABOUT</p>
     <div *ngFor="let blurb of blurbs" class="single-blurb">
       <div class="title-container">
-        <img class="title-img" src="{{blurb.imgUrl}}" alt="{{blurb.imgAlt}}">
+        <div class="title-img">{{blurb.imgUrl}}</div>
+        <!--<img class="title-img" src="{{blurb.imgUrl}}" alt="{{blurb.imgAlt}}">-->
         <div class="words-container">
           <div class="blurb-title">{{blurb.title}}</div>
           <div class="blurb-description">{{blurb.description}}</div>
@@ -20,7 +21,8 @@
     <p class="chat-title">CHAT WITH ME ABOUT</p>
     <div *ngFor="let blurb of blurbs" class="single-blurb">
       <div class="title-container">
-        <img class="title-img" src="{{blurb.imgUrl}}" alt="{{blurb.imgAlt}}">
+        <div class="title-img">{{blurb.imgUrl}}</div>
+        <!--<img class="title-img" src="{{blurb.imgUrl}}" alt="{{blurb.imgAlt}}">-->
         <div class="words-container">
           <div class="blurb-title">{{blurb.title}}</div>
           <div class="blurb-description">{{blurb.description}}</div>

@@ -27,10 +27,9 @@
   margin-top: 2em;
 }
 
-img {
-  width: 1.8em;
-  height: 1.8em;
-  margin-top: .3em;
+.title-img {
+  font-size: 2em;
+
 }
 
 .title-container {
@@ -81,10 +80,8 @@ img {
   margin-top: 2em;
 }
 
-.full-container-mobile img {
-  width: 2em;
-  height: 2em;
-  margin-top: .3em;
+.full-container-mobile .title-img {
+  font-size: 1.4em;
 }
 
 .full-container-mobile .words-container {

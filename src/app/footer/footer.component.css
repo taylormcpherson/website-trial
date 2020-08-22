@@ -14,8 +14,8 @@
 .footer-container-mobile {
   display: flex;
   justify-content: center;
-  margin: 4em 2em 3em 2em;
+  margin: 4em 1em 3em 1em;
   color: #929292;
-  font-size: .6em;
+  font-size: .8em;
 
 }

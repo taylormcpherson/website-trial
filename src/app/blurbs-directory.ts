@@ -10,6 +10,15 @@ export const BLURBS: AppBlurb[] = [
     imgUrl: '💻',
     imgAlt: 'computer',
   },
+  { id: 2,
+    title: "Wicked Problems in Design",
+    description: "How do we design a world that allows every child access to " +
+      "high-quality education? What do communities look like that center systems of care" +
+      " rather than policing? These are some of many wicked problems I could think about for days on end." +
+      " I don’t have the answers yet, but chatting about it together is a great start. ",
+    imgUrl: '⁉️️',
+    imgAlt: '?!',
+  },
   { id: 3,
     title: "Slow Fashion & Sustainability ",
     description: "When I was little I wanted to be a fashion designer." +
@@ -19,15 +28,6 @@ export const BLURBS: AppBlurb[] = [
       " project.",
     imgUrl: '♻️',
     imgAlt: 'recycle',
-  },
-  { id: 2,
-    title: "Wicked Problems in Design",
-    description: "How do we design a world that allows every child access to " +
-      "high-quality education? What do communities look like that center systems of care" +
-      " rather than policing? These are some of many wicked problems I could think about for days on end." +
-      " I don’t have the answers yet, but chatting about it together is a great start. ",
-    imgUrl: '⁉️️',
-    imgAlt: '?!',
   },
   { id: 4,
     title: "Hawai‘i",

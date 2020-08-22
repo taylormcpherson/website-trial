@@ -1,16 +1,18 @@
 .full-container {
   display: flex;
   justify-content: center;
+  margin-left: 2em;
 
 }
+
 .blurbs-container {
   margin-top: 2em;
   color: #828282;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding-left: 8%;
-  padding-right: 16%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .chat-title {
@@ -43,11 +45,59 @@ img {
 
 .blurb-title {
   font-size: 1.4em;
-  font-width: 600;
+  font-weight: 600;
 }
 
 .blurb-description {
   font-size: 1.1em;
+  font-weight: 300;
+  margin-top: .4em;
+}
+
+/*------mobile------*/
+.full-container-mobile {
+  display: flex;
+  justify-content: center;
+  margin: 0 1em 0 0;
+  padding: 0;
+}
+
+.full-container-mobile .blurbs-container {
+  color: #828282;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.full-container-mobile .chat-title {
+  font-size: .6em;
+  font-weight: 600;
+  color: #929292;
+  margin: 0 0 -2em 0;
+}
+
+.full-container-mobile .single-blurb {
+  margin-top: 2em;
+}
+
+.full-container-mobile img {
+  width: 1em;
+  height: 1em;
+  margin-top: .3em;
+}
+
+.full-container-mobile .words-container {
+  margin-left: 1em;
+}
+
+.full-container-mobile .blurb-title {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.full-container-mobile .blurb-description {
+  font-size: .8em;
   font-weight: 300;
   margin-top: .4em;
 }

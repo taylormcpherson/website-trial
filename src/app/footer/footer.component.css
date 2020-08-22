@@ -1,14 +1,21 @@
-img {
-  width: 1vw;
-}
 
 .footer-container {
   display: flex;
   justify-content: center;
   margin-top: 8em;
+  margin-bottom: 4em;
   color: #929292;
 }
 
 *:hover {
   cursor: default;
+}
+
+.footer-container-mobile {
+  display: flex;
+  justify-content: center;
+  margin: 4em 2em 3em 2em;
+  color: #929292;
+  font-size: .6em;
+
 }

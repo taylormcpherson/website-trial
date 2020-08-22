@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GlobalConstants } from "../../app.component";
 
 @Component({
   selector: 'app-work-intro',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./work-intro.component.css']
 })
 export class WorkIntroComponent implements OnInit {
+  isMobile = GlobalConstants.isMobile;
 
   constructor() { }
 

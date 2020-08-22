@@ -1,9 +1,14 @@
 .about-container {
-  margin-left: 12vw;
-  margin-right: 8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 12em 2em 12em;
+
 }
 
 .about-container-mobile {
-  margin-left: 0;
-  margin-right: 0;
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

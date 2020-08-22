@@ -36,5 +36,13 @@ h2 {
 
 img {
   border-radius: 20px;
-  box-shadow: 0 2px 20px #AEAEAE;
+  box-shadow: 0 2px 20px #CDCDCD;
+}
+
+/*---------mobile styles--------------*/
+
+h2.mobile {
+  font-size: 1.3em;
+  width: 100%;
+  margin-left: 0;
 }

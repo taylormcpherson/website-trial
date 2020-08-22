@@ -7,9 +7,9 @@ h2, h3 {
   color: #444;
   font-weight: lighter;
 }
-body {
+/*body {
   margin: 4em;
-}
+}*/
 body, input[type="text"], button {
   color: #4F4F4F;
 }

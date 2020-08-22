@@ -1,4 +1,18 @@
-<div class="full-container">
+<!--web-->
+<div class="full-container" *ngIf="!isMobile">
+  <div class="selection-title">SELECTED WORKS</div>
+  <div class="cards-container">
+    <div *ngFor="let card of cards">
+      <div class="work-cards-container" [ngStyle]="{backgroundImage: card.imgUrl}">
+        <div class="card-title card">{{card.title}}</div>
+        <div class="card-description card">{{card.description}}</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--mobile-->
+<div class="full-container-mobile" *ngIf="isMobile">
   <div class="selection-title">SELECTED WORKS</div>
   <div class="cards-container">
     <div *ngFor="let card of cards">

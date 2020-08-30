@@ -39,7 +39,7 @@ export const BLURBS: AppBlurb[] = [
   { id: 5,
     title: "Dogs, Coffee & Croissants",
     description: "Preferably in that order. " +
-      "When I’m not learning or working, I’m going on a long, romantic walks on the beach" +
+      "When I’m not learning or working, I’m going on long, romantic walks on the beach" +
       " with my dog Dolly, ideally sipping Cat & Cloud Coffee with a croissant in hand.",
     imgUrl: '🐶',
     imgAlt: 'dog',

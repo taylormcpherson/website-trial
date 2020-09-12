@@ -15,6 +15,8 @@ import { AboutComponent } from './about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ResumeComponent } from './resume/resume.component';
 import { DeviceDetectorModule } from "ngx-device-detector";
+import { HttpClientModule } from '@angular/common/http';
+import { EmbedVideo } from 'ngx-embed-video';
 
 @NgModule({
   declarations: [
@@ -32,15 +34,10 @@ import { DeviceDetectorModule } from "ngx-device-detector";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    /*RouterModule.forRoot([
-      {path: 'work', component: WorkComponentComponent},
-      {path: 'about', component: AboutComponent},
-      {path: 'resume', component: ResumeComponent},
-      {path: '', redirectTo: '/work', pathMatch: 'full'},
-      {path: '**', redirectTo: '/work', pathMatch: 'full'},
-    ]),*/
     BrowserAnimationsModule,
     DeviceDetectorModule,
+    HttpClientModule,
+    EmbedVideo.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

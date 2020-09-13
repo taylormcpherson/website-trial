@@ -1,7 +1,7 @@
-export interface WorkCard {
+export interface CaseStudy {
   id: number;
   title: string;
   description: string;
   imgUrl: string;
-  routerLink: string;
+
 }

@@ -17,6 +17,7 @@ import { ResumeComponent } from './resume/resume.component';
 import { DeviceDetectorModule } from "ngx-device-detector";
 import { HttpClientModule } from '@angular/common/http';
 import { EmbedVideo } from 'ngx-embed-video';
+import { CriticalDesignComponent } from './case-study/critical-design/critical-design.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { EmbedVideo } from 'ngx-embed-video';
     WorkComponentComponent,
     AboutComponent,
     ResumeComponent,
+    CriticalDesignComponent,
   ],
   imports: [
     BrowserModule,

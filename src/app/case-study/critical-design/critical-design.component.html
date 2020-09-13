@@ -1,0 +1,10 @@
+<div class="main-container" *ngFor="let c of cases">
+  <div *ngIf="c.id==1">
+    <h2 class="title">{{c.title}}</h2>
+    <div class="description">{{c.description}}</div>
+    <img class="intro-img" src="{{c.imgUrl}}"/>
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/ttNsRgl_ffA" width="550" height="400" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>

@@ -29,14 +29,21 @@ export const BLURBS: AppBlurb[] = [
     imgUrl: '♻️',
     imgAlt: 'recycle',
   },
-  { id: 4,
+  {
+    id: 4,
+    title: "Photography and Empowerment",
+    description: "",
+    imgUrl: "📷",
+    imgAlt: 'camera',
+  },
+  { id: 5,
     title: "Hawai‘i",
     description: "Hawai‘i is home for me, and I love talking about this special place. " +
       "Bonus points if you mention Sovereignty and the Hawaiian Kingdom.",
     imgUrl: '🏝️',
     imgAlt: 'beach',
   },
-  { id: 5,
+  { id: 6,
     title: "Dogs, Coffee & Croissants",
     description: "Preferably in that order. " +
       "When I’m not learning or working, I’m going on long, romantic walks on the beach" +

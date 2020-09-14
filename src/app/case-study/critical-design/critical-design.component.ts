@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CASES } from "../../case-study-directory";
+import { INTROS } from "../../case-directory";
 
 
 @Component({
@@ -8,7 +8,7 @@ import { CASES } from "../../case-study-directory";
   styleUrls: ['./critical-design.component.css']
 })
 export class CriticalDesignComponent implements OnInit {
-  cases = CASES;
+  intros = INTROS;
   constructor(){
   }
 

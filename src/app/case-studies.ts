@@ -9,7 +9,7 @@ export interface IntroSection {
 }
 
 export interface CriticalDesign {
-  title: string;
-  paragraph: string;
+  overviewTitle: string;
+  overviewImg: string;
 
 }

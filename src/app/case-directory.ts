@@ -1,4 +1,4 @@
-import {IntroSection} from "./case-studies";
+import {CriticalDesign, IntroSection} from "./case-studies";
 
 export const INTROS: IntroSection[] = [
   {
@@ -20,6 +20,12 @@ export const INTROS: IntroSection[] = [
     imgUrl: "",
     problemTitle: "",
     problemDescrip: "",
+  },
+]
 
+export const CRIT: CriticalDesign[] = [
+  {
+    overviewTitle: "OVERVIEW",
+    overviewImg: "./assets/img/crit-overview"
   },
 ]

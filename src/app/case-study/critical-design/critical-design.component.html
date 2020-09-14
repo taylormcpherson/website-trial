@@ -18,10 +18,10 @@
 
 
     <!--overview-->
-    <section class="overview">
+    <section class="overview" *ngFor="let crit of crits">
       <div class="word-section overview">
-        <div class="title">OVERVIEW</div>
-        <div class="overview-descrip"><img src="./assets/img/crit-overview"></div>
+        <div class="title">{{crit.overviewTitle}}</div>
+        <div class="overview-descrip"><img src="{{crit.overviewImg}}"></div>
 
       </div>
 

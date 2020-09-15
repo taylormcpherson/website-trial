@@ -1,0 +1,51 @@
+<div class="outer-container">
+  <div class="main-container">
+    <!--intro section-->
+    <section class="intro" *ngFor="let c of intro">
+      <div *ngIf="c.id==2">
+        <h2 class="page-title">{{c.title}}</h2>
+        <div class="description">{{c.description}}</div>
+        <div class="intro-img">
+          <img class="intro" src="{{c.imgUrl}}"/>
+        </div>
+      </div>
+    </section>
+
+    <!--overview-->
+    <section class="overview" *ngFor="let t of timely">
+      <div class="word-section">
+        <div class="title">{{t.sectionTitle}}</div>
+        <div *ngIf="t.sectionImg!=''" class="section-img">
+          <img src="{{t.sectionImg}}" width="100%">
+        </div>
+        <div class="section-descrip">{{t.sectionDescrip}}</div>
+      </div>
+
+    </section>
+
+    <!--design process-->
+    <section class="process" *ngFor="let p of process">
+      <div *ngIf="p.title!='Research'">
+        <div class="process-title">
+          <div class="ptitle">{{p.title}}&nbsp;</div>
+          <div class="psubtitle">{{p.subtitle}}</div>
+        </div>
+        <div *ngIf="p.img!=''" class="pimg">
+          <img src="{{p.img}}" width="100%">
+        </div>
+        <div class="pdescrip">{{p.description}}</div>
+      </div>
+
+       <div *ngIf="p.title=='Research'" class="research">
+        <div class="process-title">
+          <div class="ptitle">{{p.title}}&nbsp;</div>
+          <div class="psubtitle">{{p.subtitle}}</div>
+        </div>
+         <div class="pdescrip">{{p.description}}</div>
+        <div class="pimg"><img src="{{p.img}}" width="100%"></div>
+      </div>
+
+    </section>
+
+  </div>
+</div>

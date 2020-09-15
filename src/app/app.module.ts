@@ -18,6 +18,9 @@ import { DeviceDetectorModule } from "ngx-device-detector";
 import { HttpClientModule } from '@angular/common/http';
 import { EmbedVideo } from 'ngx-embed-video';
 import { CriticalDesignComponent } from './case-study/critical-design/critical-design.component';
+import { GroupSchedulingComponent } from './case-study/group-scheduling/group-scheduling.component';
+import { ApprenticeshipLearningComponent } from './case-study/apprenticeship-learning/apprenticeship-learning.component';
+import { PlaygroundComponent } from './case-study/playground/playground.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +35,9 @@ import { CriticalDesignComponent } from './case-study/critical-design/critical-d
     AboutComponent,
     ResumeComponent,
     CriticalDesignComponent,
+    GroupSchedulingComponent,
+    ApprenticeshipLearningComponent,
+    PlaygroundComponent,
   ],
   imports: [
     BrowserModule,

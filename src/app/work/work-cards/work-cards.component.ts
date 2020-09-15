@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CARDS } from "../../cards-directory"
+import { CARDS } from "../../main-pages-directory"
 import { GlobalConstants } from "../../app.component";
 
 @Component({

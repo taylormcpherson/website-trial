@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BLURBS } from "../../blurbs-directory";
+import { BLURB } from "../../main-pages-directory";
 import { GlobalConstants } from "../../app.component";
 
 @Component({
@@ -8,7 +8,7 @@ import { GlobalConstants } from "../../app.component";
   styleUrls: ['./about-blurbs.component.css']
 })
 export class AboutBlurbsComponent implements OnInit {
-  blurbs = BLURBS;
+  blurbs = BLURB;
   isMobile = GlobalConstants.isMobile;
 
   constructor() { }

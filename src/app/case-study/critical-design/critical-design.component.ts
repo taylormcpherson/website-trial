@@ -22,5 +22,4 @@ export class CriticalDesignComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

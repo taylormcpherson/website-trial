@@ -21,7 +21,7 @@ h2 {
   line-height: 2em;
   font-weight: 600;
   text-align: center;
-  color: #5B7FFE;
+  color: #7F93FF;
 }
 .description {
   text-align: left;
@@ -40,24 +40,70 @@ h2 {
 img.intro {
   width: 100%;
 }
+
+/*-----overview----*/
 .word-section {
   display: flex;
   flex-direction: column;
   margin: 1em 0 6em 0;
 }
 .title {
-  font-size: 1.05em;
+  font-size: 1.2em;
   font-weight: 600;
-  margin-bottom: 1.2em;
-  color: #828282;
+  margin-bottom: 1.4em;
+  /*color: #828282;*/
+}
+.section-img {
+  margin-bottom: 2em;
 }
 
-/*-----problem space----*/
+/*---process----*/
+.process {
+  margin-bottom: 4em;
+}
+.process-title {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.05em;
+  margin-bottom: .8em;
+  margin-top: -2em;
+}
 
+.ptitle {
+  font-weight: 600;
+  color: #7F93FF;
+}
+.psubtitle {
+  font-weight: 500;
+}
+.pimg {
+  margin-bottom: 2em;
+}
+.pdescrip {
+  margin-bottom: 6em;
+}
 
+/*----final design----*/
+.final-design .section-descrip {
+  margin-bottom: 2em;
+}
 .video {
   border: none;
   display: flex;
   align-self: center;
   justify-content: center;
+  margin-top: -8em;
+  margin-bottom: 6em;
+}
+
+/*---reflections--*/
+
+.reflections .section-descrip {
+  margin-bottom: -4em;
+}
+.r-title {
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: .5em;
+
 }

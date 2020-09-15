@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { INTROS } from "../../case-directory";
-import { CRIT} from "../../case-directory";
+import { INTROS, CRIT, CRITPROCESS, CRITFINAL, CRITREFLECT, CRITREFLECTSECTIONS } from "../../case-directory";
 
 
 @Component({
@@ -11,6 +10,11 @@ import { CRIT} from "../../case-directory";
 export class CriticalDesignComponent implements OnInit {
   intros = INTROS;
   crits = CRIT;
+  process = CRITPROCESS;
+  final = CRITFINAL;
+  reflect = CRITREFLECT;
+  rSection = CRITREFLECTSECTIONS;
+
   constructor(){
   }
 

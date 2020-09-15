@@ -8,8 +8,16 @@ export interface IntroSection {
 
 }
 
-export interface CriticalDesign {
-  overviewTitle: string;
-  overviewImg: string;
+export interface CaseSections {
+  sectionTitle: string;
+  sectionImg: string;
+  sectionDescrip: string;
 
+}
+
+export interface DesignProcess {
+  title: string;
+  subtitle: string;
+  description: string;
+  img: string;
 }

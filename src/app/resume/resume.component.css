@@ -7,13 +7,14 @@
 img {
   display: flex;
   align-self: center;
+  margin-top: -2em;
 }
 
 
 .download-container {
   display: flex;
   align-self: center;
-  width: 64%;
+  width: 54%;
 
 
 }
@@ -30,7 +31,7 @@ img {
 
 .download-button {
   text-decoration: none;
-  color: #5B7FFE;
+  color: #7F93FF;
   display: flex;
 }
 

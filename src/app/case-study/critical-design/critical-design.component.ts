@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { INTROS, CRIT, CRITPROCESS, CRITFINAL, CRITREFLECT, CRITREFLECTSECTIONS } from "../../case-directory";
+import { GlobalConstants} from "../../app.component";
 
 
 @Component({
@@ -14,6 +15,7 @@ export class CriticalDesignComponent implements OnInit {
   final = CRITFINAL;
   reflect = CRITREFLECT;
   rSection = CRITREFLECTSECTIONS;
+  isMobile = GlobalConstants.isMobile;
 
   constructor(){
   }

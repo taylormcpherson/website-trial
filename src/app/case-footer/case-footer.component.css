@@ -1,0 +1,29 @@
+.case-footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+* {
+  font-size: .92em;
+  font-weight: 600;
+  margin-bottom: -2em;
+  margin-top: 2em;
+}
+
+.item {
+  text-decoration: none;
+  color: #929292;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+.item:hover {
+  color: #A3B1FB;
+  cursor: pointer;
+}
+
+.activePage {
+  color: #4f4f4f;
+}

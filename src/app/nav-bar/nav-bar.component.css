@@ -16,9 +16,6 @@
 .nav-item {
   text-decoration: none;
   color: #929292;
-}
-
-.nav-item {
   margin-right: 2.4em;
 }
 
@@ -28,10 +25,8 @@
 }
 
 .activePage {
-  color: #333333;
+  color: #4f4f4f;
 }
-
-*:focus {outline:0 !important;}
 
 /*--mobile-- */
 

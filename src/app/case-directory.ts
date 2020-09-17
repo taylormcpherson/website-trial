@@ -164,38 +164,37 @@ export const TIMELY: CaseSections[] = [
   {
     sectionTitle: "PROBLEM SPACE",
     sectionImg: "",
-    sectionDescrip: "The Tech4Good lab is a research lab at UC Santa Cruz led by Professor David Lee. The lab has " +
-      "around 50 members, and it is growing fast. Research teams typically consist of 1 graduate student and 3-7 " +
+    sectionDescrip: "The Tech4Good lab is a research lab at UC Santa Cruz led by Professor David Lee. It has " +
+      "over 50 members, and it is growing fast. Research teams typically consist of 1 graduate student and 3-7 " +
       "undergraduates. Some students may be involved in multiple teams. Each quarter, all teams must find meeting" +
       " times in the midst of heavy course loads and various other commitments the members might have. All teams " +
       "must not only find common times to meet together, but also with the Professor who leads the lab. ",
   },
 
   {
-    sectionTitle: "CURRENT PROCESS",
+    sectionTitle: "CURRENT APPROACH",
     sectionImg: "./assets/img/timely-current.png",
     sectionDescrip: "The lab currently uses Omnipointment, a website that helps groups schedule times to meet. " +
-      "Students input their availability, but only the Professor finds the meeting times, leaving a lot of time" +
-      " consuming work for them to do on their own. Above is a screenshot of real lab scheduling on Omnipointment. " +
-      "The left-hand image shows an overview of responses and the image on the right shows where an individual user" +
-      " inputs their availability. Omnipointment sets the initial grid as completely busy, and users have to " +
-      "indicate when they are free.",
+      "Omnipointment sets the initial time grid as completely busy, and users must indicate when they are free. " +
+      "Currently in the Lab, students input their availability into the time grid, but only the Professor finds the meeting times." +
+      " This leaves a lot of time-consuming work for the Professor to do on their own.",
   },
   {
     sectionTitle: "DESIGN PROCESS",
     sectionImg: "./assets/img/timely-process.png",
     sectionDescrip: "Because our team had an entire Summer to focus on this project, we were able to deep-dive " +
       "into the design process. We did not take a linear approach, and instead embraced iterative loops of user" +
-      " and market research, prototyping, and feedback."
+      " and market research, prototyping, and feedback. For the sake of space, I will be covering the primary takeaways" +
+      " from each part of the process below."
   },
 ]
 /*----design process---*/
 export const TIMELYPROCESS: DesignProcess[] = [
   {
     title: "Research",
-    subtitle: " | Empathize with Users, Narrow Scope",
+    subtitle: " | Empathize with Users, Understand Scope",
     description: "To begin our user research, we needed to understand the needs and experiences of the two primary " +
-      "stakeholders in this project: the lead professor and the lab members. We conducted user interviews and surveys" +
+      "stakeholders in this project: the lead professor and the lab members (students). We conducted user interviews and surveys" +
       " to get a deeper understanding of their experiences with the current process, their needs, and any exiting " +
       "pain points they might have.",
     img: "./assets/img/timely-research.png",

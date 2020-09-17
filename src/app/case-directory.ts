@@ -14,7 +14,7 @@ export const INTROS: IntroSection[] = [
     title: "Group Scheduling App",
     description: "How can groups of people digitally schedule meeting times in a way that " +
       "is easy, honest and time-efficient?",
-    imgUrl: "",
+    imgUrl: "./assets/vid/timely-create.mov",
   },
   {
     id: 3,
@@ -193,10 +193,11 @@ export const TIMELY: CaseSections[] = [
 export const TIMELYPROCESS: DesignProcess[] = [
   {
     title: "Research",
-    subtitle: " | Empathize with Users",
-    description: "To begin our user research, needed to understand the needs and experiences of the two primary " +
+    subtitle: " | Empathize with Users, Narrow Scope",
+    description: "To begin our user research, we needed to understand the needs and experiences of the two primary " +
       "stakeholders in this project: the lead professor and the lab members. We conducted user interviews and surveys" +
-      " to get a deeper understanding of their experiences with the current process and exiting needs.",
+      " to get a deeper understanding of their experiences with the current process, their needs, and any exiting " +
+      "pain points they might have.",
     img: "./assets/img/timely-research.png",
   },
   {

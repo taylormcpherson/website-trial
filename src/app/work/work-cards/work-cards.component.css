@@ -44,16 +44,22 @@ a {
 }
 
 .card-title {
-  font-size: 1.8em;
-  margin-bottom: .6em;
+  font-size: 1.6em;
+  margin: 0 1em.6em 1em;
   visibility: hidden;
-  font-weight: 700;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  align-self: center;
 }
 
 .card-description {
-  font-size: 1.1em;
-  font-weight: 400;
+  font-size: 1.3em;
+  font-weight: 500;
   visibility: hidden;
+  display: flex;
+  align-self: center;
+  text-align: center;
 }
 
 .work-cards-container:hover {

@@ -13,7 +13,9 @@ h2, h3 {
 body, input[type="text"], button {
   color: #4F4F4F;
 }
+
 /* everywhere else */
+*:focus {outline:0 !important;}
 
 * {
   /*font-family: Nunito, sans-serif;*/

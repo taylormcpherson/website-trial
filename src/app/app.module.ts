@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FontawesomeObject } from "@fortawesome/fontawesome-svg-core";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,6 +22,9 @@ import { CriticalDesignComponent } from './case-study/critical-design/critical-d
 import { GroupSchedulingComponent } from './case-study/group-scheduling/group-scheduling.component';
 import { ApprenticeshipLearningComponent } from './case-study/apprenticeship-learning/apprenticeship-learning.component';
 import { PlaygroundComponent } from './case-study/playground/playground.component';
+import { CaseFooterComponent } from './case-footer/case-footer.component';
+import { ScrollTopComponent } from './scroll-top/scroll-top.component';
+
 
 @NgModule({
   declarations: [
@@ -38,6 +42,8 @@ import { PlaygroundComponent } from './case-study/playground/playground.componen
     GroupSchedulingComponent,
     ApprenticeshipLearningComponent,
     PlaygroundComponent,
+    CaseFooterComponent,
+    ScrollTopComponent,
   ],
   imports: [
     BrowserModule,

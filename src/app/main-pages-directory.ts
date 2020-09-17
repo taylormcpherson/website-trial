@@ -2,19 +2,19 @@ import { WorkCard, AboutBlurb} from "./main-pages";
 
 export const CARDS: WorkCard[] = [
   { id: 1,
-    title: 'MOBILE / WEB',
+    title: 'GROUP SCHEDULING',
     description: 'UI / UX Designer',
     imgUrl: 'url(./assets/img/card-1.png)',
     routerLink: "/group-scheduling",
   },
   { id: 2,
-    title: 'CRITICAL DESIGN',
+    title: 'ROBOT NANNYS',
     description: 'Researcher, Visual Designer',
     imgUrl: 'url(./assets/img/card-3.png)',
     routerLink: "/critical-design"
   },
   { id: 3,
-    title: 'USER RESEARCH',
+    title: 'APPRENTICESHIP LEARNING',
     description: 'UX Researcher, Writer',
     imgUrl: 'url(./assets/img/card-2.png)',
     routerLink: "/apprenticeship-learning",

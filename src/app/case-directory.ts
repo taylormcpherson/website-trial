@@ -21,7 +21,7 @@ export const INTROS: IntroSection[] = [
     title: "Digital Apprenticeship Learning Research",
     description: "How might we rethink and design socio-technical systems that expand access to apprenticeship " +
       "learning in computer science?",
-    imgUrl: "",
+    imgUrl: "./assets/img/causeway-intro.png",
   },
   {
     id: 4,
@@ -290,23 +290,17 @@ export const CAUSEWAY: CaseSections[] = [
   {
     sectionTitle: "OVERVIEW",
     sectionImg: "./assets/img/causeway-overview.png",
-    sectionDescrip: "",
-  },
-  {
-    sectionTitle: "More to come soon.",
-    sectionImg: "",
-    sectionDescrip: "This page is still being developed.",
+    sectionDescrip: "This project has been my primary focus throughout my time in the Tech4Good Lab at UC Santa Cruz." +
+      " For the past nine months, my team and I have been running and conducting qualitative analysis on " +
+      "user-experience tests, surveys, and interviews on Causeway, our Lab’s most developed platform. Additionally," +
+      " we have been doing extensive literature reviews within apprenticeship learning and computer science " +
+      "education in preparation for a research paper we aim to publish in late 2020.",
   },
 ]
 
 /*----CAUSEWAY DATA-----*/
 /*----main sections---*/
 export const PLAYGROUND: CaseSections[] = [
-  {
-    sectionTitle: "Coming soon.",
-    sectionImg: "",
-    sectionDescrip: "This page is still being developed.",
-  },
 
 ]
 

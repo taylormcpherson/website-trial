@@ -38,3 +38,25 @@ h2 {
 img.intro {
   width: 100%;
 }
+
+/*-----overview----*/
+.word-section {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0 6em 0;
+  justify-content: center;
+}
+.title {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 1.4em;
+  /*color: #828282;*/
+  text-align: center;
+}
+
+.section-descrip {
+  text-align: center;
+}
+.section-img {
+  margin-bottom: 2em;
+}

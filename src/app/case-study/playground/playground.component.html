@@ -10,7 +10,16 @@
         </div>
       </div>
     </section>
-
+    <!--main sections-->
+    <section class="overview" *ngFor="let p of play">
+      <div class="word-section">
+        <div class="title">{{p.sectionTitle}}</div>
+        <div *ngIf="p.sectionImg!=''" class="section-img">
+          <img src="{{p.sectionImg}}" width="100%">
+        </div>
+        <div class="section-descrip">{{p.sectionDescrip}}</div>
+      </div>
+    </section>
 
   </div>
   <app-case-footer></app-case-footer>

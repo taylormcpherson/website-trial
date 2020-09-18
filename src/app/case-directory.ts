@@ -19,8 +19,8 @@ export const INTROS: IntroSection[] = [
   {
     id: 3,
     title: "Digital Apprenticeship Learning Research",
-    description: "How might we design digitial, socio-technical systems that expand access to apprenticeship learning in computer" +
-      " science?",
+    description: "How might we rethink and design socio-technical systems that expand access to apprenticeship " +
+      "learning in computer science?",
     imgUrl: "",
   },
   {
@@ -282,6 +282,32 @@ export const TIMELYREFLECTSECTIONS: CaseSections[] = [
       "forward to, and wanted more of. I can’t wait to continue learning about user experience design and building" +
       " a career out of it."
   },
+]
+
+/*----CAUSEWAY DATA-----*/
+/*----main sections---*/
+export const CAUSEWAY: CaseSections[] = [
+  {
+    sectionTitle: "OVERVIEW",
+    sectionImg: "./assets/img/causeway-overview.png",
+    sectionDescrip: "",
+  },
+  {
+    sectionTitle: "More to come soon.",
+    sectionImg: "",
+    sectionDescrip: "This page is still being developed.",
+  },
+]
+
+/*----CAUSEWAY DATA-----*/
+/*----main sections---*/
+export const PLAYGROUND: CaseSections[] = [
+  {
+    sectionTitle: "Coming soon.",
+    sectionImg: "",
+    sectionDescrip: "This page is still being developed.",
+  },
+
 ]
 
 

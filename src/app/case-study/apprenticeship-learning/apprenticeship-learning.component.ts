@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { INTROS } from "../../case-directory";
+import { INTROS, CAUSEWAY } from "../../case-directory";
 
 @Component({
   selector: 'app-apprenticeship-learning',
@@ -8,7 +8,7 @@ import { INTROS } from "../../case-directory";
 })
 export class ApprenticeshipLearningComponent implements OnInit {
   intro = INTROS;
-
+  causeway = CAUSEWAY;
   constructor() { }
 
   ngOnInit(): void {

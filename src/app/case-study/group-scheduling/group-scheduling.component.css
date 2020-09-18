@@ -115,3 +115,13 @@ img.intro {
   margin-bottom: 1em;
   font-weight: 600;
 }
+
+/*---reflections----*/
+.reflections .section-descrip {
+  margin-bottom: -4em;
+}
+.r-title {
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: .5em;
+}

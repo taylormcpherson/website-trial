@@ -253,5 +253,35 @@ export const TIMELYREFLECT: CaseSections[] = [
     sectionImg: "",
   }
 ]
+/*----reflections subsections--*/
+export const TIMELYREFLECTSECTIONS: CaseSections[] = [
+  {
+    sectionTitle: "If something feels off, iterate.",
+    sectionImg: "",
+    sectionDescrip: "This was something my team-lead mentioned to me, and it really stuck. There were many moments" +
+      " in my design process where I felt as if I had come to the final stage of a design, but one element still " +
+      "felt off. Instead of moving forward with that uneasy feeling, or just feeling stuck by it, I learned the best" +
+      " thing to do was take a step back and iterate again. "
+  },
+  {
+    sectionTitle: "Create styling guides, and stick to them.",
+    sectionImg: "",
+    sectionDescrip: "A lesson I learned the hard way. In our final weeks of the project as everything was wrapping up," +
+      " I was doing consistency checks on things like font styling. To my surprise, I found that my designs were full" +
+      " of a ridiculous amount of different font sizes. It took a lot of time to go through everything and stick to" +
+      " only 3 sizes, but it really paid off in the end. In the future, I will set my font-styles early on in the " +
+      "design process and be sure to stick with it throughout every iteration.  "
+  },
+  {
+    sectionTitle: "I love this stuff.",
+    sectionImg: "",
+    sectionDescrip: "A cheesy but very true final reflection. I could not be more grateful to have been able to " +
+      "design on this team throughout my summer internship. Besides all the great skills I got from this, I also " +
+      "learned that I just love doing this type of work. I found myself going out of my way to read articles about" +
+      "best-practices and putting in tons of extra hours for this project. It was the type of work I always looked " +
+      "forward to, and wanted more of. I can’t wait to continue learning about user experience design and building" +
+      " a career out of it."
+  },
+]
 
 

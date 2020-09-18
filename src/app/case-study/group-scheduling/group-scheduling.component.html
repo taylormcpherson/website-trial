@@ -101,9 +101,15 @@
 
     <!--reflections-->
     <section *ngFor="let r of reflect">
-      <div class="word-section">
-        <div class="title">{{r.sectionTitle}}</div>
-        <div class="section-descrip">{{r.sectionDescrip}}</div>
+       <div  *ngFor="let r of reflect" class="reflections">
+        <div class="word-section">
+          <div class="title">{{r.sectionTitle}}</div>
+          <div class="section-descrip">{{r.sectionDescrip}}</div>
+        </div>
+      </div>
+      <div *ngFor="let s of rSection" class="reflection-section">
+        <div class="r-title">{{s.sectionTitle}}</div>
+        <div class="r-descrip">{{s.sectionDescrip}}</div>
       </div>
     </section>
 

@@ -9,7 +9,6 @@ export interface CaseSections {
   sectionTitle: string;
   sectionImg: string;
   sectionDescrip: string;
-
 }
 
 export interface DesignProcess {
@@ -18,3 +17,4 @@ export interface DesignProcess {
   description: string;
   img: string;
 }
+

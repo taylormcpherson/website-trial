@@ -14,7 +14,7 @@ export const INTROS: IntroSection[] = [
     title: "Group Scheduling App",
     description: "How can groups of people digitally schedule meeting times in a way that " +
       "is easy, honest and time-efficient?",
-    imgUrl: "./assets/vid/timely-create.mov",
+    imgUrl: "./assets/img/timely-hifi.png",
   },
   {
     id: 3,
@@ -202,14 +202,15 @@ export const TIMELYPROCESS: DesignProcess[] = [
   {
     title: "Prototype",
     subtitle: " | Wireframes and Lo-fidelity Designs",
-    description: "This is one of our team’s more detailed and initial set of wireframes. We mapped out two user flows: " +
+    description: "Above is one of our team’s more detailed, initial set of wireframes. We mapped out two user flows: " +
       "the Creator flow (target user = professor) and the Participant flow (target users = lab members). " +
-      "Based on our user insight, we wanted each flow to be quick and easy so users wouldn’t feel it took too much " +
-      "of their time. We added a feature in the Participant flow for users to input their courses which would then" +
+      "Based on our user insight, we wanted each user flow to be quick and easy. We added a feature in the Participant " +
+      "flow for users to input their courses which would then" +
       " automatically appear in their schedule. We predicted that this might add accountability for users and yield" +
       " more honest responses as a result. We also decided to initially set the schedule as completely free, and" +
       " have users fill in their busy times. This is the opposite model of Omnipointment. We made this decision" +
-      " in hopes that it would yield more general availability for the group.",
+      " in hopes that it would yield more general availability for the group. " +
+      "After putting our wireframes together, we further fleshed out our designs and created Lo-Fidelity mockups using Figma, shown below.",
     img: "./assets/img/timely-proto.png",
   },
 
@@ -217,14 +218,40 @@ export const TIMELYPROCESS: DesignProcess[] = [
     title: "Feedback",
     subtitle: " | Insight from our Stakeholders",
     description: "Because of the intimate nature of our Lab’s summer cohort, we were able to meet with the lead" +
-      " Professor (our primary stakeholder) on a bi-weekly basis to get continuous feedback on our designs. Some" +
-      " initial feedback informed us that our designs needed a third user flow for returning users. Another key " +
-      "piece of feedback we received at this stage was that we did not focus enough attention on the needs of the " +
-      "Professor in the Creator flow. We needed to further flesh out the complexities of this flow to ensure all " +
-      "of our users' needs were met.This was a 12 week project with so many different iterations and feedback loops. " +
-      "For the sake of space," +
-      " I’m unable to include it all in this case study. If you are curious to learn even more about the process," +
-      " please don’t hesitate to reach out. ",
+      " Professor, our primary stakeholder, on a bi-weekly basis to get continuous feedback on our designs. Some" +
+      " initial feedback informed us that our designs needed a third user flow for returning users. It was also noted that" +
+      " we did not focus enough attention on the needs of the " +
+      "Professor in the Creator flow. With this in mind, we continued to iterate through user" +
+      " research and prototyping to ensure our designs resonated and empathized with all of our primary stakeholders and users." +
+      " For the sake of space, I am unable to include every iteration we went through in our 12 weeks. However, please do not hesitate" +
+      " to reach out and ask about them if you are curious.",
     img: "",
   },
 ]
+
+export const TIMELYFINAL: CaseSections[] = [
+  {
+    sectionTitle: "FINAL DESIGNS",
+    sectionDescrip: "After 12 weeks of designing, we shipped 3 final user flows. You can interact with each " +
+      "of them in our final web prototypes below.",
+    sectionImg: "",
+  },
+  {
+    sectionTitle: "",
+    sectionDescrip: "Due to a last minute redesign, we were unable to finish prototyping the mobile version of our Review Flow, but you can watch a video of the other two flows below.",
+    sectionImg: "./assets/vid/timely-full.mov",
+  }
+]
+
+export const TIMELYREFLECT: CaseSections[] = [
+  {
+    sectionTitle: "LEARNINGS & REFLECTIONS",
+    sectionDescrip: "This was my first time being on a user-experience design team, and I’m so proud of " +
+      "the work I was able to produce through this project. I learned so much" +
+      " during these 12 weeks that briefly summarizing everything feels really difficult. That said, here are a" +
+      " few of my major takeaways. ",
+    sectionImg: "",
+  }
+]
+
+

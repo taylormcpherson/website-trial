@@ -61,9 +61,12 @@ img.intro {
 .process {
   margin-bottom: 4em;
 }
+
 .process-title {
   display: flex;
   flex-direction: row;
+  /*justify-content: center;
+  align-items: center;*/
   font-size: 1.05em;
   margin-bottom: .8em;
   margin-top: -2em;
@@ -78,15 +81,37 @@ img.intro {
 }
 .pimg {
   margin-bottom: 2em;
+
 }
 .pdescrip {
   margin-bottom: 6em;
 }
 
-.research .pdescrip {
+.research .pdescrip, .proto .pdescrip {
   margin-bottom: 2em;
 }
 
 .research .pimg {
   margin-bottom: 6em;
+  margin-left: -1em;
+}
+
+/*--final design, prototypes--*/
+.final-design .section-descrip {
+  margin-bottom: 2em;
+}
+.protos {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6em;
+}
+
+.review {
+  margin-bottom: -4em;
+}
+
+.proto-title {
+  font-size: 1.05em;
+  margin-bottom: 1em;
+  font-weight: 600;
 }

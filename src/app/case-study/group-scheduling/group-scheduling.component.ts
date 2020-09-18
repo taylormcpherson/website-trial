@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { INTROS, TIMELY, TIMELYPROCESS} from "../../case-directory";
+import { INTROS, TIMELY, TIMELYPROCESS, TIMELYFINAL, TIMELYREFLECT } from "../../case-directory";
 
 @Component({
   selector: 'app-group-scheduling',
@@ -10,6 +10,8 @@ export class GroupSchedulingComponent implements OnInit {
   intro = INTROS;
   timely = TIMELY;
   process = TIMELYPROCESS;
+  final = TIMELYFINAL;
+  reflect = TIMELYREFLECT;
 
   constructor() { }
 

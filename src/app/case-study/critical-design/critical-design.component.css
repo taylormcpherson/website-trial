@@ -111,7 +111,7 @@ img.intro {
 
 /*-----mobile-----*/
 .mobile .outer-container {
-  margin: 2em;
+  margin: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,7 +119,8 @@ img.intro {
 }
 
 .mobile h2 {
-  font-size: 1.3em;
+  font-size: 1.25em;
+  text-align: left;
 }
 
 .mobile .main-container {
@@ -129,6 +130,7 @@ img.intro {
 
 .mobile .description {
   margin: 0;
+  font-size: 1.1em;
 }
 
 .mobile .process-title {

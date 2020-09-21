@@ -39,9 +39,12 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 .mobile .item {
   margin-left: .5em;
   margin-right: .5em;
+  margin-bottom: 4em;
 }

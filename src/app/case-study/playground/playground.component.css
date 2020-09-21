@@ -60,7 +60,7 @@ img.intro {
 
 /*-----mobile-----*/
 .mobile .outer-container {
-  margin: 2em;
+  margin: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,7 +68,8 @@ img.intro {
 }
 
 .mobile h2 {
-  font-size: 1.3em;
+  font-size: 1.25em;
+  text-align: left;
 }
 
 .mobile .main-container {
@@ -84,3 +85,4 @@ img.intro {
   font-size: 1em;
   flex-wrap: wrap;
 }
+

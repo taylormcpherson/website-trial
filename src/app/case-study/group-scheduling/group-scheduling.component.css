@@ -127,15 +127,20 @@ img.intro {
 
 /*-----mobile-----*/
 .mobile .outer-container {
-  margin: 2em;
+  margin: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.mobile * {
+  width: 100%;
+}
+
 .mobile h2 {
-  font-size: 1.3em;
+  font-size: 1.25em;
+  text-align: left;
 }
 
 .mobile .main-container {
@@ -148,10 +153,6 @@ img.intro {
 }
 
 .mobile .process-title {
-  font-size: 1em;
-  flex-wrap: wrap;
-}
-
-.mobile img {
-  width: 100%;
+  justify-content: flex-start;
+  width: min-content;
 }

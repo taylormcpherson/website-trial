@@ -68,18 +68,17 @@ img.intro {
 
 
 /*-----mobile-----*/
-.mobile .outer-container {
-  margin: .5em;
+.mobile-outer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 1em;
 }
 
 .mobile h2 {
   font-size: 1.25em;
   text-align: left;
-
 }
 
 .mobile .main-container {

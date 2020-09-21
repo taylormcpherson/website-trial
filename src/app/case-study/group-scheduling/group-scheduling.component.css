@@ -64,8 +64,6 @@ img.intro {
 .process-title {
   display: flex;
   flex-direction: row;
-  /*justify-content: center;
-  align-items: center;*/
   font-size: 1.05em;
   margin-bottom: .8em;
   margin-top: -2em;
@@ -126,22 +124,35 @@ img.intro {
 }
 
 /*-----mobile-----*/
-.mobile .outer-container {
-  margin: .5em;
+.mobile * {
+  width: 100%;
+}
+
+.mobile-outer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.mobile h2 {
-  font-size: 1.25em;
-  text-align: left;
-}
-
 .mobile .main-container {
   font-size: 1em;
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 2em 4em 2em;
+}
+
+.mobile h2 {
+  font-size: 1.25em;
+}
+
+.mobile img {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
 }
 
 .mobile .description {
@@ -150,6 +161,5 @@ img.intro {
 
 .mobile .process-title {
   justify-content: flex-start;
-  width: min-content;
   flex-wrap: wrap;
 }

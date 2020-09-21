@@ -1,3 +1,4 @@
+/*----web-----*/
 .outer-container {
   margin: -2em 4em 4em 4em;
   /*border-radius: 40px;
@@ -105,4 +106,32 @@ img.intro {
   font-weight: 600;
   margin-top: 2em;
   margin-bottom: .5em;
+}
+
+
+/*-----mobile-----*/
+.mobile .outer-container {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile h2 {
+  font-size: 1.3em;
+}
+
+.mobile .main-container {
+  font-size: 1em;
+  margin: 0;
+}
+
+.mobile .description {
+  margin: 0;
+}
+
+.mobile .process-title {
+  font-size: 1em;
+  flex-wrap: wrap;
 }

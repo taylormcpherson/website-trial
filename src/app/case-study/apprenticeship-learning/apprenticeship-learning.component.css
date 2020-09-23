@@ -68,6 +68,10 @@ img.intro {
 
 
 /*-----mobile-----*/
+.mobile body {
+  width: 100%;
+}
+
 .mobile-outer-container {
   display: flex;
   flex-direction: column;
@@ -76,20 +80,36 @@ img.intro {
   margin: 2em;
 }
 
+.mobile .main-container {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
 .mobile h2 {
   font-size: 1.4em;
   text-align: left;
   display: flex;
   line-height: 1.5em;
 }
-
-.mobile .main-container {
-  font-size: 1em;
-  margin: 0;
+.mobile .intro img {
+  margin-left: -1em;
+  margin-bottom: -1em;
+  height: 180px;
 }
 
-.mobile .word-section {
-  margin-bottom: 3em;
+.mobile .overview img {
+  margin-bottom: -.5em;
+}
+
+.mobile img {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-bottom: 0;
 }
 
 .mobile .description {
@@ -97,7 +117,35 @@ img.intro {
   margin: 0 0 1em 0;
 }
 
+.mobile .word-section, .mobile .process, .mobile video  {
+  margin-bottom: 3em;
+}
+
 .mobile .title {
   margin-bottom: 1em;
   font-size: 1em;
 }
+
+.mobile .process-title {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+
+.mobile .research img, .mobile .protos, .mobile .final-design
+.section-descrip, .mobile .research .pimg, .mobile .pdescrip  {
+  margin-bottom: 0;
+}
+
+.mobile .proto-title {
+  margin-top: 2em;
+}
+
+ .mobile .final-design .word-section {
+   margin-bottom: 1em;
+ }
+
+.mobile .reflections .section-descrip {
+  margin-bottom: -2em;
+}
+

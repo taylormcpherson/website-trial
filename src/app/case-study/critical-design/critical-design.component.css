@@ -35,7 +35,6 @@ h2 {
   display: flex;
   justify-content: center;
   align-self: center;
-  /*margin:0 -8em 4em -8em;*/
   margin-bottom: 4em;
 }
 img.intro {
@@ -116,7 +115,12 @@ img.intro {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2em
+  margin: 2em;
+}
+
+.mobile .main-container {
+  font-size: 1em;
+  margin: 0em;
 }
 
 .mobile h2 {
@@ -130,13 +134,9 @@ img.intro {
   height: fit-content;
 }
 
-.mobile .main-container {
-  font-size: 1em;
-  margin: 0;
-}
 
 .mobile .word-section {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 
 .mobile .title {

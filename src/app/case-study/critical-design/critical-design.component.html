@@ -83,9 +83,17 @@
         <section class="overview" *ngFor="let crit of crits">
           <div class="word-section">
             <div class="title">{{crit.sectionTitle}}</div>
-            <div *ngIf="crit.sectionImg!=''" class="section-img">
+            <div *ngIf="crit.sectionImg!=''" class="section-img mOverview">
+            <div *ngIf="crit.sectionTitle=='OVERVIEW'">
+              <img src="./assets/img/crit-overview-mobile.png" width="70%">
+            </div>
+            <div *ngIf="crit.sectionTitle=='DESIGN PROCESS'">
+              <img src="./assets/img/crit-process-mobile.png" width="100%">
+            </div>
+            <div *ngIf="crit.sectionTitle!='OVERVIEW' && crit.sectionTitle!='DESIGN PROCESS'">
               <img src="{{crit.sectionImg}}" width="100%">
             </div>
+          </div>
             <div class="section-descrip">{{crit.sectionDescrip}}</div>
           </div>
         </section>

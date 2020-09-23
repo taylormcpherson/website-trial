@@ -132,7 +132,10 @@
             <div *ngIf="t.sectionTitle=='OVERVIEW'">
               <img src="./assets/img/timely-overview-mobile.png" width="70%">
             </div>
-            <div *ngIf="t.sectionTitle!='OVERVIEW'">
+            <div *ngIf="t.sectionTitle=='DESIGN PROCESS'">
+              <img src="./assets/img/timely-process-mobile.png" width="100%">
+            </div>
+            <div *ngIf="t.sectionTitle!='OVERVIEW' && t.sectionTitle!='DESIGN PROCESS'">
               <img src="{{t.sectionImg}}" width="100%">
             </div>
           </div>

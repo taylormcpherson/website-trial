@@ -172,7 +172,7 @@ img.intro {
   margin: 0 0 1em 0;
 }
 
-.mobile .word-section, .mobile .process {
+.mobile .word-section, .mobile .process, .mobile video  {
   margin-bottom: 3em;
 }
 
@@ -200,12 +200,9 @@ img.intro {
    margin-bottom: 1em;
  }
 
- .mobile video {
-   margin-bottom: 3em;
- }
-
 .mobile .reflections .section-descrip {
   margin-bottom: -2em;
-
 }
+
+
 

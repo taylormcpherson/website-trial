@@ -131,7 +131,7 @@ export const CRITREFLECTSECTIONS: CaseSections[] = [
   {
     sectionTitle: "Cost and Accesibility. Who is Frank For?",
     sectionImg: "",
-    sectionDescrip: "Realistically, how might it be possible for FRANK to be affordable and still include" +
+    sectionDescrip: "Realistically, how might it be possible for Frank to be affordable and still include" +
       " all its high-tech features? This should not be a luxury only available to the rich. I acknowledge" +
       " that in its current state, the families that need our design the most may not be the ones who can afford it." +
       " This is a major concern."
@@ -139,7 +139,7 @@ export const CRITREFLECTSECTIONS: CaseSections[] = [
   {
     sectionTitle: "Privacy Concerns",
     sectionImg: "",
-    sectionDescrip: "I also question privacy issues FRANK may raise. Could a personal robot intensify the dangers " +
+    sectionDescrip: "I also question privacy issues Frank may raise. Could a personal robot intensify the dangers " +
       "of the surveillance-state that are already hyper-present in our society?"
   },
   {

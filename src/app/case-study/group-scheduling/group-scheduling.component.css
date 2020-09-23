@@ -145,7 +145,10 @@ img.intro {
 }
 
 .mobile h2 {
-  font-size: 1.25em;
+  font-size: 1.4em;
+  text-align: left;
+  display: flex;
+  line-height: 1.5em;
 }
 
 .mobile img {
@@ -153,13 +156,29 @@ img.intro {
   display: flex;
   align-self: center;
   justify-content: center;
+  margin-bottom: 1em;
 }
 
 .mobile .description {
-  margin: 0;
+  font-size: 1em;
+  margin: 0 0 1em 0;
 }
+
+.mobile .word-section {
+  margin-bottom: 4em;
+}
+
+.mobile .title {
+  margin-bottom: 1em;
+  font-size: 1em;
+}
+
 
 .mobile .process-title {
   justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+.mobile .protos {
+  display: none;
 }

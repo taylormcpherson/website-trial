@@ -32,19 +32,31 @@
 
 /*----MOBILE----*/
 .mobile * {
-  font-size: .8em;
+  font-size: 1em;
 }
 
-.mobile .case-footer-container {
+
+.mobile-case-footer-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  margin-left: 2em;
-  margin-right: 2em;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 4em -2em 0 -2em;
+  padding-top: 1em;
+  padding-bottom: .5em;
+  background-color: #5B7FFE;
+  opacity: .55;
 }
 
 .mobile .item {
-  margin-left: .5em;
-  margin-right: .5em;
-  margin-bottom: 4em;
+  display: flex;
+  color: #FFFFFF;
+  margin-bottom: .5em;
+  font-weight: 400;
+}
+
+.mobile .activePage {
+  font-weight: 700;
+  text-decoration: underline;
 }

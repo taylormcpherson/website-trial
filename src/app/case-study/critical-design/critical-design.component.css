@@ -186,6 +186,10 @@ img.intro {
    margin-bottom: 1em;
  }
 
+ .mobile .final-design img {
+   margin-bottom: 6em;
+ }
+
 .mobile .reflections .section-descrip {
   margin-bottom: -2em;
 }

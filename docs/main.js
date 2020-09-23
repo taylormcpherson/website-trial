@@ -536,12 +536,10 @@ function ApprenticeshipLearningComponent_div_1_section_3_div_1_Template(rf, ctx)
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r16.title);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](c_r16.description);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", c_r16.imgUrl, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 } }
 function ApprenticeshipLearningComponent_div_1_section_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ApprenticeshipLearningComponent_div_1_section_3_div_1_Template, 7, 3, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ApprenticeshipLearningComponent_div_1_section_3_div_1_Template, 7, 2, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const c_r16 = ctx.$implicit;
@@ -656,7 +654,7 @@ class ApprenticeshipLearningComponent {
     }
 }
 ApprenticeshipLearningComponent.ɵfac = function ApprenticeshipLearningComponent_Factory(t) { return new (t || ApprenticeshipLearningComponent)(); };
-ApprenticeshipLearningComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ApprenticeshipLearningComponent, selectors: [["app-apprenticeship-learning"]], decls: 2, vars: 2, consts: [["class", "outer-container", 4, "ngIf"], ["class", "mobile", 4, "ngIf"], [1, "outer-container"], [1, "main-container"], ["class", "intro", 4, "ngFor", "ngForOf"], ["class", "overview", 4, "ngFor", "ngForOf"], [1, "intro"], [4, "ngIf"], [1, "page-title"], [1, "description"], [1, "intro-img"], [1, "intro", 3, "src"], [1, "overview"], ["class", "word-section", 4, "ngIf"], ["class", "word-section problem", 4, "ngIf"], [1, "word-section"], [1, "title"], ["class", "section-img", 4, "ngIf"], [1, "section-descrip"], [1, "section-img"], ["width", "100%", 3, "src"], [1, "word-section", "problem"], ["width", "50%", 3, "src"], [1, "mobile"], [1, "mobile-outer-container"], ["width", "100%", 1, "intro", 3, "src"], ["src", "./assets/img/causeway-overview-mobile.png", "width", "70%"]], template: function ApprenticeshipLearningComponent_Template(rf, ctx) { if (rf & 1) {
+ApprenticeshipLearningComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ApprenticeshipLearningComponent, selectors: [["app-apprenticeship-learning"]], decls: 2, vars: 2, consts: [["class", "outer-container", 4, "ngIf"], ["class", "mobile", 4, "ngIf"], [1, "outer-container"], [1, "main-container"], ["class", "intro", 4, "ngFor", "ngForOf"], ["class", "overview", 4, "ngFor", "ngForOf"], [1, "intro"], [4, "ngIf"], [1, "page-title"], [1, "description"], [1, "intro-img"], [1, "intro", 3, "src"], [1, "overview"], ["class", "word-section", 4, "ngIf"], ["class", "word-section problem", 4, "ngIf"], [1, "word-section"], [1, "title"], ["class", "section-img", 4, "ngIf"], [1, "section-descrip"], [1, "section-img"], ["width", "100%", 3, "src"], [1, "word-section", "problem"], ["width", "50%", 3, "src"], [1, "mobile"], [1, "mobile-outer-container"], ["src", "./assets/img/causeway-intro-mobile.png", "width", "100%", 1, "intro"], ["src", "./assets/img/causeway-overview-mobile.png", "width", "70%"]], template: function ApprenticeshipLearningComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ApprenticeshipLearningComponent_div_0_Template, 5, 2, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ApprenticeshipLearningComponent_div_1_Template, 6, 2, "div", 1);
     } if (rf & 2) {
